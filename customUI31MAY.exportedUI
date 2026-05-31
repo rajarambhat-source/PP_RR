@@ -1,0 +1,236 @@
+<mso:cmd app="Excel" dt="1" />
+<mso:customUI xmlns:x1="http://schemas.microsoft.com/office/2009/07/customui/macro"
+    xmlns:mso="http://schemas.microsoft.com/office/2009/07/customui">
+    <mso:ribbon>
+        <mso:qat />
+        <mso:tabs>
+            <mso:tab idQ="mso:TabView">
+                <mso:group idQ="mso:GroupMacros" visible="false" />
+            </mso:tab>
+            <mso:tab idQ="mso:TabAddIns" visible="false" insertBeforeQ="mso:TabDeveloper" />
+            <mso:tab id="mso_c2.C53A6A" label="Excel2Kite Initial">
+                <mso:group id="mso_c3.27BBFF" label=" " autoScale="true">
+                    <mso:button idQ="x1:Get_Access_Token_0_CEA118" label="Get Access Token"
+                        imageMso="ControlsGallery" onAction="!Get_Access_Token" visible="true" />
+                    <mso:button idQ="x1:Open_Kites_0_D0BC86" label="Open Kites"
+                        imageMso="DataGraphicIconSet" onAction="!Open_Kites" visible="true" />
+                    <mso:button idQ="x1:StartExcel2Kite_0_F5557C1" label="Start Excel2Kite"
+                        imageMso="OutlineDemoteToBodyText" onAction="!StartExcel2Kite"
+                        visible="true" />
+                </mso:group>
+                <mso:group id="mso_c5.E3DE194" label=" " autoScale="true">
+                    <mso:button idQ="x1:PrepareKiteCollection_0_31A96B02" label="Build Kite Clients"
+                        imageMso="CondolatoryEvent" onAction="!PrepareKiteCollection" visible="true" />
+                    <mso:button idQ="x1:ToggleSilenceWorm_0_5AA50E2" label="Toggle Silence Worm"
+                        imageMso="VisibilityVisible" onAction="!ToggleSilenceWorm" visible="true" />
+                    <mso:button idQ="x1:ClearTerm_0_DA21E46" label="Clear Terminal"
+                        imageMso="ChartRadarChart" onAction="!ClearTerm" visible="true" />
+                    <mso:button idQ="x1:TestSessions_0_E939D84" label="Test Sessions"
+                        imageMso="ListMacros" onAction="!TestSessions" visible="true" />
+                    <mso:button idQ="x1:StopExcel2Kite_0_8804936" label="Stop Excel2Kite"
+                        imageMso="DiagramTargetInsertClassic" onAction="!StopExcel2Kite"
+                        visible="true" />
+                </mso:group>
+                <mso:group id="mso_c3.C53A6A" label=" " autoScale="true" />
+                <mso:group id="mso_c1.103C365B" label=" " imageMso="TableBorderPenColorPicker"
+                    autoScale="true">
+                    <mso:button idQ="x1:loadE2KSettings_0_340D4F4" label="Load E2K Settings"
+                        imageMso="ControlsGallery" onAction="!loadE2KSettings" visible="true" />
+                </mso:group>
+                <mso:group id="mso_c1.38C514" label=" " autoScale="true">
+                    <mso:button idQ="x1:InitializeStraddles_0_106B63A0" label="Initialize Straddles"
+                        imageMso="OutlineSubtotals" onAction="!InitializeStraddles" visible="true" />
+                    <mso:button idQ="x1:ResetPeriodicReports_0_103EBEDA"
+                        label="Reset Periodic Reports" imageMso="TableBorderPenColorPicker"
+                        onAction="!ResetPeriodicReports" visible="true" />
+                </mso:group>
+                <mso:group id="mso_c1.169ABE" label=" " autoScale="true">
+                    <mso:button idQ="x1:Go_Home_1_BA873B6" label="Home" imageMso="OpenStartPage"
+                        onAction="!Go_Home" visible="true" />
+                </mso:group>
+                <mso:group id="mso_c2.4B99A3" label=" " autoScale="true">
+                    <mso:button idQ="x1:OpenTaxPnLWebLink_0_4ED584" label="Open TaxPnL WebLink"
+                        imageMso="PictureReflectionGalleryItem" onAction="!OpenTaxPnLWebLink"
+                        visible="true" />
+                    <mso:button idQ="x1:OpenTaxPnLFiles_1_4ED584" label="Get TaxPnL From Files"
+                        imageMso="Piggy" onAction="!OpenTaxPnLFiles" visible="true" />
+                </mso:group>
+                <mso:group id="mso_c1.D11256" label=" " autoScale="true">
+                    <mso:button idQ="x1:Good_Morning_0_594463E" label="Good Morning!"
+                        imageMso="HappyFace" onAction="!Good_Morning" visible="true" />
+                    <mso:button idQ="x1:Beautify_Formats_0_CFC063" label="Beautify Formats"
+                        imageMso="MsnLogo" onAction="!Beautify_Formats" visible="true" />
+                </mso:group>
+            </mso:tab>
+            <mso:tab id="mso_c1.7D538E" label="Excel2Kite Supplementary">
+                <mso:group id="mso_c1.3D040E" label=" " autoScale="true">
+                    <mso:button idQ="x1:listActiveProcess_0_3EE522" label="List Active Processes"
+                        imageMso="ShapesDuplicate" onAction="!listActiveProcess" visible="true" />
+                    <mso:button idQ="x1:listThreads_1_3EE522" label="List Threads"
+                        imageMso="SelectionPaneHidden" onAction="!listThreads" visible="true" />
+                    <mso:button idQ="x1:updateModules_0_14A4B1D" label="Update Modules"
+                        imageMso="ObjectEditPoints" onAction="!updateModules" visible="true" />
+                </mso:group>
+                <mso:group id="mso_c3.6ED412" label=" " autoScale="true">
+                    <mso:button idQ="x1:getOHLC_0_4C8FBB" label="Get OHLC"
+                        imageMso="RmsNavigationBar" onAction="!getOHLC" visible="true" />
+                </mso:group>
+                <mso:group id="mso_c1.8CD4D37" label=" " autoScale="true">
+                    <mso:button idQ="x1:Display_Creteria_0_359B201" label="Display Strikes Creteria"
+                        imageMso="EquationMatrixGallery" onAction="!Display_Creteria" visible="true" />
+                    <mso:button idQ="x1:GetAllStrikes_0_B1F1209" label="Get All Strikes"
+                        imageMso="RunDialog" onAction="!GetAllStrikes" visible="true" />
+                    <mso:button idQ="x1:Set_Filter_On_Strikes_0_124DD44"
+                        label="Set Filter On Strikes" imageMso="FilterToggleFilter"
+                        onAction="!Set_Filter_On_Strikes" visible="true" />
+                    <mso:button idQ="x1:CopyFilteredStrikes2Orders_0_B2E7222"
+                        label="Copy Filtered Strikes to Orders" imageMso="CopyFolder"
+                        onAction="!CopyFilteredStrikes2Orders" visible="true" />
+                </mso:group>
+                <mso:group id="mso_c1.7C2FDE" label=" " autoScale="true">
+                    <mso:button idQ="x1:_GetOrdersLog_0_5B6C5B" label="Orders"
+                        imageMso="RecordsRefreshMenu" onAction="!GetOrdersLog" visible="true" />
+                    <mso:button idQ="x1:_GetTradesLog_0_5CB788" label="Trades"
+                        imageMso="SignatureShow" onAction="!GetTradesLog" visible="true" />
+                    <mso:button idQ="x1:_GetPositionsLog_1_5B6C5B" label="Positions"
+                        imageMso="FrontPageToggleBookmark" onAction="!GetPositionsLog"
+                        visible="true" />
+                    <mso:button idQ="x1:getvirtualcontracts_0_5700A4" label="Virtual Contracts"
+                        imageMso="MacroDefault" onAction="!getvirtualcontracts" visible="true" />
+                </mso:group>
+                <mso:group id="mso_c2.BA64E75" label=" " autoScale="true">
+                    <mso:control idQ="mso:Camera" visible="true" />
+                    <mso:button idQ="x1:Go_Home_1_BA873B6" label="Home" imageMso="OpenStartPage"
+                        onAction="!Go_Home" visible="true" />
+                </mso:group>
+                <mso:group id="mso_c3.46250BE" label=" " autoScale="true">
+                    <mso:button idQ="x1:GetDayPnL_0_1062ACE" label="Day PnL"
+                        imageMso="DiagramTargetInsertClassic" onAction="!GetDayPnL" visible="true" />
+                    <mso:button idQ="x1:_GetMargins_2_5B6C5B" label="Margins" imageMso="DollarSign"
+                        onAction="!GetMargins" visible="true" />
+                </mso:group>
+                <mso:group id="mso_c1.91F1FF" label=" " autoScale="true">
+                    <mso:button idQ="x1:getvirtualcontracts_0_5700A4" label="Get Virtual Contracts"
+                        imageMso="MacroDefault" onAction="!getvirtualcontracts" visible="true" />
+                    <mso:button idQ="x1:Filter_Virtual_Contracts_0_4A61CE2"
+                        label="Filter Virtual Contracts" imageMso="PersonaStatusOnline"
+                        onAction="!Filter_Virtual_Contracts" visible="true" />
+                </mso:group>
+                <mso:group id="mso_c1.1483D7A" label=" " autoScale="true">
+                    <mso:button idQ="x1: SaveLogs_0_7CCC5D" label="Save Logs"
+                        imageMso="SmartArtLayoutGallery" onAction="!SaveLogs" visible="true" />
+                    <mso:button idQ="x1:_getOrderHistory_0_455A92E" label="Save Order History"
+                        imageMso="AppointmentColorDialog" onAction="!getOrderHistory" visible="true" />
+                </mso:group>
+                <mso:group id="mso_c1.11F244D" label=" " autoScale="true">
+                    <mso:button idQ="x1:Go_Scratch_0_BA873B6" label="Scratch Pad"
+                        imageMso="FormulaMoreFunctionsMenu" onAction="!Go_Scratch" visible="true" />
+                    <mso:button idQ="x1:Show_Straddles_0_1245874" label="Straddles"
+                        imageMso="EquationOptions" onAction="!Show_Straddles" visible="true" />
+                    <mso:button
+                        idQ="x1:C:_Code_PPTRADE_Excel2Kite_Dashboard_V12_16May2026_Excel2Kite_Dashboard_V12_16May2026.xlsm_ThisWorkbook.MoveNewTrades_0_1D07F694"
+                        label="MoveNewTrades" imageMso="FindDialog"
+                        onAction="C:\Code\PPTRADE\Excel2Kite_Dashboard_V12_16May2026\Excel2Kite_Dashboard_V12_16May2026.xlsm!ThisWorkbook.MoveNewTrades"
+                        visible="true" />
+                </mso:group>
+            </mso:tab>
+            <mso:tab id="mso_c1.E2D3C59" label="Excel2Kite">
+                <mso:group id="mso_c3.146CC18" label=" " autoScale="true">
+                    <mso:button idQ="x1:filterClients_0_6B9ECCE" label="Filter Clients"
+                        imageMso="Head" onAction="!filterClients" visible="true" />
+                    <mso:button idQ="x1:unfilterClients_0_1413658" label="Un Filter Clients"
+                        imageMso="CondolatoryEvent" onAction="!unfilterClients" visible="true" />
+                </mso:group>
+                <mso:group id="mso_c1.5C5AA3" label=" " autoScale="true">
+                    <mso:button idQ="x1:goAggressive_0_276A938" label="Go Aggressive"
+                        imageMso="_3DPerspectiveIncrease" onAction="!goAggressive" visible="true" />
+                    <mso:button idQ="x1:Get_ATM_Basket_0_9105E86" label="Get ATM Basket"
+                        imageMso="GridSettings" onAction="!Get_ATM_Basket" visible="true" />
+                    <mso:button idQ="x1:goDefensive_1_276A938" label="Go Defensive"
+                        imageMso="_3DPerspectiveDecrease" onAction="!goDefensive" visible="true" />
+                </mso:group>
+                <mso:group id="mso_c5.D961141" label=" " autoScale="true">
+                    <mso:button idQ="x1:findGaps_1_4949AC48" label="Find Gaps"
+                        imageMso="PanAndZoomWindow" onAction="!findGaps" visible="true" />
+                </mso:group>
+                <mso:group id="mso_c4.E419B51" label=" " autoScale="true">
+                    <mso:button idQ="x1:getPositionsSummary_0_66DA528" label="Get Positions Summary"
+                        imageMso="Bullets" onAction="!getPositionsSummary" visible="true" />
+                    <mso:button idQ="x1:Display_Positions_Orders_0_FD5610"
+                        label="Display Positions &amp;&amp; Orders"
+                        imageMso="CreateReportBlankReport" onAction="!Display_Positions_Orders"
+                        visible="true" />
+                    <mso:button idQ="x1:getPosOrdsOrder_0_8E7087E"
+                        label="Copy Positions &amp;&amp; Orders" imageMso="CategoryCollapse"
+                        onAction="!getPosOrdsOrder" visible="true" />
+                </mso:group>
+                <mso:group id="mso_c3.E40FAEA" label=" " autoScale="true">
+                    <mso:button idQ="x1:RefreshLTPTicks_0_AD6E579" label="Refresh LTP Ticks"
+                        imageMso="TagMarkComplete" onAction="!RefreshLTPTicks" visible="true" />
+                </mso:group>
+                <mso:group id="mso_c1.23CEA0" label=" " autoScale="true">
+                    <mso:button idQ="x1:Go_Home_0_916755D" label="Home" imageMso="OpenStartPage"
+                        onAction="!Go_Home" visible="true" />
+                </mso:group>
+                <mso:group id="mso_c1.E560F56" label=" " autoScale="true">
+                    <mso:button idQ="x1:cancelAllOrdersforAllClients_0_6338526"
+                        label="Cancel Orders" imageMso="CancelRequest"
+                        onAction="!cancelAllOrdersforAllClients" visible="true" />
+                </mso:group>
+                <mso:group id="mso_c2.E6C6E73" label=" " imageMso="ResultsPaneStartFindAndReplace"
+                    autoScale="true">
+                    <mso:button idQ="x1:PrepareOrders_0_F2B11BC" label="Prepare All Orders"
+                        imageMso="ShapesDuplicate" onAction="!PrepareOrders" visible="true" />
+                    <mso:button idQ="x1:executeAllOrdersforAllClients_0_635E483"
+                        label="Execute Orders" imageMso="ResultsPaneStartFindAndReplace"
+                        onAction="!executeAllOrdersforAllClients" visible="true" />
+                </mso:group>
+                <mso:group id="mso_c3.4647C232" label=" " autoScale="true">
+                    <mso:button idQ="x1:InchUP_Triggers_0_1499DFD1" label="Inch UP Triggers"
+                        imageMso="OutlineMoveUp" onAction="!InchUP_Triggers" visible="true" />
+                    <mso:button idQ="x1:CancelandTrailOrders_0_464A62AE" label="Trail Orders"
+                        imageMso="RecordsRefreshMenu" onAction="!CancelandTrailOrders"
+                        visible="true" />
+                    <mso:button idQ="x1:InchDown_Triggers_1_1499DFD1" label="Inch Down Triggers"
+                        imageMso="OutlineMoveDown" onAction="!InchDown_Triggers" visible="true" />
+                </mso:group>
+                <mso:group id="mso_c1.21BC10A4" label="New" autoScale="true">
+                    <mso:button
+                        idQ="x1:C:_Users_rajar_AppData_Roaming_Microsoft_Excel_XLSTART_PERSONAL.XLSB_ThisWorkbook.autoorderG_0_21BCE50B"
+                        label="autoorderG" imageMso="ListMacros"
+                        onAction="C:\Users\rajar\AppData\Roaming\Microsoft\Excel\XLSTART\PERSONAL.XLSB!ThisWorkbook.autoorderG"
+                        visible="true" />
+                </mso:group>
+            </mso:tab>
+            <mso:tab id="mso_c1.EF1EF54" label="New Tab">
+                <mso:group id="mso_c2.EF1EF54" label="New Group" autoScale="true">
+                    <mso:control idQ="mso:FormatPainter" visible="true" />
+                </mso:group>
+            </mso:tab>
+            <mso:tab id="mso_c1.EF1EF54" label="Raja Tab">
+                <mso:group id="mso_c2.EF1EF54" label="New Group" autoScale="true">
+                    <mso:control idQ="mso:FormatPainter" visible="true" />
+                </mso:group>
+                <mso:group id="mso_c1.21BC10A4" label="New" autoScale="true">
+                    <mso:button
+                        idQ="x1:C:_Users_rajar_AppData_Roaming_Microsoft_Excel_XLSTART_PERSONAL.XLSB_ThisWorkbook.autoorderG_0_21BCE50B"
+                        label="autoorderG" imageMso="ListMacros"
+                        onAction="C:\Users\rajar\AppData\Roaming\Microsoft\Excel\XLSTART\PERSONAL.XLSB!ThisWorkbook.autoorderG"
+                        visible="true" />
+                </mso:group>
+                <mso:group id="mso_c1.11F244D" label=" " autoScale="true">
+                    <mso:button idQ="x1:Go_Scratch_0_BA873B6" label="Scratch Pad"
+                        imageMso="FormulaMoreFunctionsMenu" onAction="!Go_Scratch" visible="true" />
+                    <mso:button idQ="x1:Show_Straddles_0_1245874" label="Straddles"
+                        imageMso="EquationOptions" onAction="!Show_Straddles" visible="true" />
+                    <mso:button
+                        idQ="x1:C:_Code_PPTRADE_Excel2Kite_Dashboard_V12_16May2026_Excel2Kite_Dashboard_V12_16May2026.xlsm_ThisWorkbook.MoveNewTrades_0_1D07F694"
+                        label="MoveNewTrades" imageMso="FindDialog"
+                        onAction="C:\Code\PPTRADE\Excel2Kite_Dashboard_V12_16May2026\Excel2Kite_Dashboard_V12_16May2026.xlsm!ThisWorkbook.MoveNewTrades"
+                        visible="true" />
+                </mso:group>
+            </mso:tab>
+            </mso:tab>
+        </mso:tabs>
+    </mso:ribbon>
+</mso:customUI>
